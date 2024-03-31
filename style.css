@@ -3,8 +3,9 @@ body{
 }
 
 .container{
-    width:250px;
-    height:300px;
+   min-width:100px;
+   max-width:250px;
+   height:300px;
     background-color: rgb(27, 39, 57);
     border-radius: 10px;
     margin: auto;
@@ -30,6 +31,9 @@ input{
     padding:5px 12px;
     background-color: rgb(56, 56, 74);
     width:150px;
+    /* min-width:50px;
+    max-width: 90px; ** if we open this page into smartwatch then we will set this width***/ 
+    
     }
     input[type="submit"]{
         padding: 5px;
